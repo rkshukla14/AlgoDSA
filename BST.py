@@ -51,9 +51,9 @@ root_a.right.right.right.right.right = TreeNode(25)
 root_b = TreeNode(15)
 root_b.left = TreeNode(8)
 root_b.right = TreeNode(20)
-root_b.left.left = TreeNode(54)
+root_b.left.left = TreeNode(5)
 root_b.left.right = TreeNode(10)
 root_b.right.right = TreeNode(25)
-
+# in-order traversal should be - [5, 8, 10, 15, 20,25] for both trees and it should return true
 result = parallel_in_order_traversal(root_a, root_b)
 print(result)
